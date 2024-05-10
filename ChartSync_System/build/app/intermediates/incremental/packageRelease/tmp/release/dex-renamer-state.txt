@@ -1,0 +1,4 @@
+#Thu May 09 03:03:58 EDT 2024
+base.0=/Users/akshaykn/Desktop/yash_proj/floatingbubble/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
