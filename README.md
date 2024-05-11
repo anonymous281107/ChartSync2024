@@ -2,17 +2,19 @@
 
 ## Recommended 
 ----
-#### IDE 
+### IDE Setup
 
-[Visual Studio Code](https://code.visualstudio.com/)
+**Recommended IDE**: [Visual Studio Code](https://code.visualstudio.com/)
 
-##### Plugis for **Visual Studio Code**
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist)
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+#### Essential Plugins for Visual Studio Code:
+- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments): Enhances comment visibility and organization.
+- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): Immediate inline display of code errors.
+- [Pubspec Assist](https://marketplace.visualstudio.com/items?itemName=jeroen-meijer.pubspec-assist): Easily add dependencies to your project.
+- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight): Marks CSS/web colors in your code.
 
-##### Configuration
+#### Configuration Tips:
+- Set the Dart Line Length as shown below for optimal readability:
+  ![Dart: Line Length Configuration](https://i.imgur.com/DrT5MAe.png)
 
 - Dart Line Length Configuration
 ![Dart: Line Length Configuration](https://i.imgur.com/DrT5MAe.png)
@@ -34,7 +36,7 @@ floatingbubble/
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/anonymous284012/GraphLite
+https://github.com/anonymous281107/ChartSync2024.git
 ```
 
 **Step 2:**
@@ -55,30 +57,30 @@ flutter clean
 flutter build appbundle --target-platform android-arm,android-arm64
 ```
 
-### Before you push a commmit
 
-* Make sure that all the code is commented and legible variable names are used. Do not have any unnecessary overheads or redundant code.
-* The code is formatted using the in-built dart formatter for the respective IDE being used with commas (,) placed at the appropriate positions to enhance readability.
-* All local imports are replaced with the complete path to the file (example :- `import 'package:floatingbubble/constants/enums.dart';`)
-* Always import flutter core libaries, followed by any external library and then the local files in the end.
+### Code Commit Guidelines
 
-### When to create a new Branch
+- Ensure all code is well-commented with clear, meaningful variable names.
+- Avoid unnecessary overheads and redundant code.
+- Use the Dart formatter provided by the IDE for consistent code formatting.
+- Import order: Flutter core libraries, external libraries, then local files.
 
-A new branch is to be created for new feature with an appropriate name. For example, when adding the video-conferencing feature, one should create a new branch from the main branch named floatingbubble-customtheme (There is no set naming nomenclature that one has to follow. Just use legible branch name)
+### Branch Management
 
-### When to merge a branch
-
+- **Creating a New Branch**: Create branches for new features with descriptive names, e.g., `floatingbubble-customtheme`.
+- **When to Merge a Branch**:
 ![When to merge a branch](https://i.imgur.com/t4qSgnA.png)
 
-### Libraries & Tools Used
+### Key Libraries & Tools
 
-* [In-App Webview](https://github.com/pichillilorenzo/flutter_inappwebview)
-* [Multi-select Flutter](https://pub.dev/packages/multi_select_flutter)
-* [HTTP](https://pub.dev/packages/http)
-* [Crypto](https://pub.dev/packages/crypto)
-* [FL Chart](https://pub.dev/packages/fl_chart)
-* [Firebase Core](https://pub.dev/packages/firebase_core)
-* [Firebase Analytics](https://pub.dev/packages/firebase_analytics)
-* [Dropdown Button](https://pub.dev/packages/dropdown_button2)
-* [Provider](https://github.com/rrousselGit/provider)
-* [Syncfusion Flutter Charts](https://pub.dev/packages/syncfusion_flutter_charts)
+- [In-App Webview](https://github.com/pichillilorenzo/flutter_inappwebview)
+- [Multi-select Flutter](https://pub.dev/packages/multi_select_flutter)
+- [HTTP](https://pub.dev/packages/http)
+- [Crypto](https://pub.dev/packages/crypto)
+- [FL Chart](https://pub.dev/packages/fl_chart)
+- [Firebase Core](https://pub.dev/packages/firebase_core)
+- [Firebase Analytics](https://pub.dev/packages/firebase_analytics)
+- [Dropdown Button2](https://pub.dev/packages/dropdown_button2)
+- [Provider](https://github.com/rrousselGit/provider)
+- [Syncfusion Flutter Charts](https://pub.dev/packages/syncfusion_flutter_charts)
+
